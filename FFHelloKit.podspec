@@ -2,14 +2,14 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FFHelloKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A extension of FFHelloKit."
 
   spec.description  = <<-DESC
                       A FFHelloKit extension.
                    DESC
 
-  spec.homepage     = "http://github.com/fanyufan/FFHelloKit"
+  spec.homepage     = "https://github.com/fanyufan/FFHelloKit"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -46,7 +46,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -61,7 +61,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/fanyufan/FFHelloKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/fanyufan/FFHelloKit.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -72,7 +72,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  =  "FFHelloKit/**/*.{h,m}"
+  spec.source_files  =  "FFHelloKit/FFHelloKit/**/*.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
