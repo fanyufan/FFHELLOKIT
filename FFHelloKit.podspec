@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "FFHelloKit"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A extension of FFHelloKit."
 
   spec.description  = <<-DESC
@@ -72,7 +72,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  =  "FFHelloKit/FFHelloKit/**/*.{h,m}"
+  spec.source_files  =  "FFHelloKit/FFHelloKit/FFHelloKit/FFHelloKit/*.{h,m}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
